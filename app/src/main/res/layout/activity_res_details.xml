@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.thomas.foodie.ResDetailsActivity">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/did"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:maxLength="20"
+        android:ellipsize="marquee"
+        android:paddingBottom="30dp"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    />
+    <TextView
+        android:id="@+id/dname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:maxLength="20"
+        android:ellipsize="marquee"
+        android:layout_below="@id/did"
+        android:textColor="#43bd00"
+        android:textSize="16sp"
+        android:paddingBottom="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/daddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:maxLength="20"
+        android:ellipsize="marquee"
+        android:layout_below="@id/dname"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        />
+    <TextView
+        android:id="@+id/dlat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:maxLength="20"
+        android:ellipsize="marquee"
+        android:layout_below="@id/daddress"
+
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    />
+    <TextView
+        android:id="@+id/dlng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:maxLength="20"
+        android:ellipsize="marquee"
+        android:layout_below="@id/dlat"
+
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    />
+    <TextView
+        android:id="@+id/ddesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:maxLength="20"
+        android:ellipsize="marquee"
+        android:layout_below="@id/dlng"
+        android:paddingTop="20dp"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+        />
+
+
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/imageButton"
+        android:src="@drawable/malogo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+     />
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/imageButton2"
+        android:src="@drawable/menulogo"
+        android:layout_below="@id/imageButton"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        />
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton3"
+        android:layout_below="@id/imageButton2"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/reservation" />
+</RelativeLayout>
+</ScrollView>
